@@ -786,13 +786,11 @@ color: var(--accent-color) ;
     background-color: var(--base-backgroud-color);
     border: 1px solid var(--close-button-border);
     border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button:hover,
 .close-button:focus
  {
-    background-color: var(--accent-color);
-    color: var(--secondary-title-color);
+    fill: var(--accent-color);
     
 }
