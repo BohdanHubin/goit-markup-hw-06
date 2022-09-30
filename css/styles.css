@@ -794,3 +794,15 @@ color: var(--accent-color) ;
     fill: var(--accent-color);
     
 }
+
+.modal-title {
+    margin-top: 40px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--title-color);
+}
