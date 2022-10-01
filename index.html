@@ -407,10 +407,8 @@
     <div  class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-button" data-modal-close><svg width="18px" height="18px" ><use href="./images/symbol-defs.svg#close"></use></svg></button>
-
-            <form name="modal-form" class="modal-form">
-                <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-                
+            <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+            <form name="modal-form" class="modal-form">    
                 <label class="modal-label">
                     Ім'я
                     <div class="input-position">
@@ -445,7 +443,14 @@
                     Коментар
                 <textarea name="coment" class="modal-input texarea" placeholder="Введіть текст"></textarea>
                 </label>
-
+                <label class="checkbox-label">
+                    <input type="checkbox" name="checkbox" class="checkbox" >
+                    Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
+                </label>
+                <div class="modal-button-position">
+                    <button type="submit" class="modal-button">Відправити</button>
+                </div>
+                
             </form>
 
         </div>
