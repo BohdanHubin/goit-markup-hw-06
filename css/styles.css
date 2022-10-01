@@ -20,6 +20,7 @@
     --backdrop: rgba(0, 0, 0, 0.2);
     --footer-form-border: rgba(255, 255, 255, 0.3);
     --modal-input-border: rgba(33, 33, 33, 0.2);
+    --modal-textarea-placrholder: rgba(117, 117, 117, 0.5);
  }
 
 body {
@@ -867,11 +868,19 @@ color: var(--accent-color) ;
     fill: var(--accent-color);
 }
 
-.modal-input.texarea {
+.modal-input.textarea {
     resize: none;
     height: 120px;
     padding-left: 16px;
     padding-top: 12px;
+}
+.modal-input.textarea::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    
+    color: var(--modal-textarea-placrholder);
 }
 
 .checkbox-label {
@@ -880,11 +889,6 @@ color: var(--accent-color) ;
     justify-content: center;
 
     margin-top: 20px;
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .checkbox {
